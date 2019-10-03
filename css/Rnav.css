@@ -1,0 +1,77 @@
+body{
+	background-color: #F2F2F2;
+	margin: 1%;
+	padding:1%;
+}
+
+nav{
+	/*min-width: 500px;*/
+	border:1px solid black;
+	padding: 5%;
+text-align: center;
+	background:radial-gradient(yellow,orange);
+	text-align: center;
+}
+nav a{
+	text-decoration-line: none;
+	color:red;
+font-weight: bold;
+border:1px solid black;
+padding: 2%;
+border-radius: 10px;
+margin-right:3%;
+background:yellow; 
+transition:  .5s ease;
+transition-property:width,height,transform,background,font-size;
+	transition-duration:1s,1s,1s,1s,1s,1s;
+	
+}
+@media all and (min-width: 900px){
+	nav{
+	width:100px	;
+	display: inline-block;
+	height: 100vh;
+	float: left;
+
+	
+}
+nav a{
+	display: block;
+	padding: 20%;
+	text-align: center;
+	margin-bottom: 20%;
+
+}
+section{
+	display: inline-block;
+	width:60%;
+	/*min-width:600px;*/
+	height: 100vh;
+	overflow: auto;
+	float:left;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+}
+a:hover{
+	color: white;
+	background:orange;
+
+	width: 100px;
+	transform: scale3d(1.5,1.5,1.5);
+	
+}
+
+	
+	
+
+
+
+
